@@ -1,0 +1,164 @@
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: https://geekzl.com
+# date_format: "ordinal"
+title:  极客专栏
+subtitle: 极客专栏
+description: "极客专栏的技术分享博客。内容涵盖Python, PHP, Leetcode面试题，.NET等等~"
+keywords: Python, 大白, VR, 技术控, 大白技术控
+# timezone: Asia/Shanghai +08:00
+encoding: "utf-8"
+side_bar_repo_limit: 5
+repository: by8/by8.github.io
+# 对 css 和 js 资源的 cdn 加速配置
+cdn:
+    jsdelivr:
+        enabled: true
+
+# 组件配置
+components:
+    # 分享
+    share:
+        enabled: true
+    # 不蒜子访问统计
+    busuanzi:
+        enabled: true
+        start_date: 2020-07-09
+# 压缩页面内容
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+# 文章字数统计
+word_count:
+    enabled: true
+# 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
+highlight_theme: github
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: 极客玩家大白
+organization: 
+organization_url: 
+github_username: yanglr
+location: Shanghai, China
+email: legege007@126.com
+
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
+
+  -
+    href: /categories/
+    label: 分类
+
+#   -
+#     href: /archives/
+#     label: 归档
+
+#   -
+#     href: /open-source/
+#     label: 开源
+
+  -
+    href: /wiki/
+    label: 维基
+
+  -
+    href: /links/
+    label: 链接
+
+  -
+    href: /about/
+    label: 关于
+
+  -
+    href: /sitemap.xml
+    label: 站点地图
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
+markdown: kramdown
+highlighter: rouge
+
+paginate: 10
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: :title.html
+plugins:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+    - jekyll-redirect-from
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, gitment, gitalk
+comments_provider: gitalk
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+# https://disqus.com
+disqus:
+    username: yanglr
+# https://imsun.net/posts/gitment-introduction/
+gitment:
+    owner: yanglr
+    repo: geekplayers.com
+    oauth:
+        client_id: d6e97a19029a9fb1fbba
+        client_secret: bc6195bc6d2ec5254712fa69960612c2c59f2ebb
+# https://github.com/gitalk/gitalk#install
+gitalk:
+    owner: yanglr
+    repo: geekplayers.com
+    clientID: d6e97a19029a9fb1fbba  # owner: by8
+    clientSecret: bc6195bc6d2ec5254712fa69960612c2c59f2ebb
+
+# 在使用其它评论组件时可点击显示 Disqus
+lazy_load_disqus : false
+
+# ---------------- #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
+
+exclude:
+- [vendor]
+
+# ---------------- #
+#      Google      #
+# ---------------- #
+# google:
+#     analytics_id: UA-80669434-1
+#     adsense:
+#         footer: true
+#         sidebar: true 
+#         content_header: true
+#         content_footer: false

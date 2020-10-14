@@ -1,0 +1,51 @@
+- sitename: GitHub
+  name: yanglr
+  url: https://github.com/yanglr
+
+- sitename: 知乎
+  name: Bravo Yeung(近4万关注者)
+  url: http://www.zhihu.com/people/legege007
+
+- sitename: CSDN
+  name: 大白技术控
+  url: https://blog.csdn.net/lzuacm
+
+- sitename: 博客园
+  name: 大白技术控
+  url: https://enjoy233.cnblogs.com
+
+- sitename: 简书
+  name: 大白技术控
+  url: https://www.jianshu.com/u/273b8036c361
+
+- sitename: StackOverflow
+  name: Bravo Yeung
+  url:  https://stackoverflow.com/users/6075331/bravo-young
+
+# - sitename: LinkedIn
+#   name: Bruce Yang
+#   url:   
+
+# - sitename: 掘金
+#   name: legege007
+#   url: 
+
+# - sitename: LinkedIn
+#   name: Bruce Yang
+#   url: 
+
+- sitename: 个人博客
+  name: 大白技术控Bravo Yeung
+  url: https://www.geekplayers.com
+
+- sitename: V2EX
+  name: legeg007
+  url: https://www.v2ex.com/member/legege007
+
+- sitename: 微博
+  name: 大白技术控
+  url: https://weibo.com/546671991
+
+# - sitename: 豆瓣
+#   name: 萌大白BY
+#   url: 

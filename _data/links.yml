@@ -1,0 +1,25 @@
+- name: 大白技术控Bravo Yeung
+  url: https://www.geekplayers.com
+  src: mylife  
+  direction: tech
+
+- name: 码志
+  url: http://mazhuang.org
+  src: friend  
+  direction: life
+
+# - name: 吴章金falcon@TinyLab
+#   url: http://tinylab.org/
+#   src: friend  
+#   direction: linux
+  
+# - name: Walterlv - WPF专家(微软MVP)
+#   url: http://tinylab.org/
+#   src: friend  
+#   direction: wpf
+
+# - name: 云之幻 - UWP
+#   url: https://blog.richasy.cn
+#   src: friend  
+#   direction: uwp
+  

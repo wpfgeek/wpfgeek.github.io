@@ -1,0 +1,56 @@
+- name: Software Engineer Keywords
+  keywords:
+      - C#
+      - PHP
+      - C++      
+      - Python
+      - Scrum敏捷开发
+      - 设计模式
+
+- name: Windows Developer Keywords
+  keywords:
+      - WPF
+      - Win Forms
+      - WCF
+      - C++/CLI
+      - Visual Stuido
+      - Win32 SDK
+      - PowerShell
+      - COM
+
+- name: Linux Developer Keywords
+  keywords:
+      - Linux
+      - Ubuntu
+      - .NET core
+      - WSL
+      - Windows Terminal
+
+- name: Web Developer Keywords
+  keywords:
+      - ASP.NET
+      - JavaScript
+      - jQuery
+      - PHP
+      - VS Code
+
+- name: Database Keywords
+  keywords:
+      - MySql
+      - MongoDB
+      - Oracle
+
+- name: Machine Learning & Data Analysis Keywords
+  keywords:
+      - TensorFlow
+      - ML.NET
+      - TensorFlow.NET
+
+- name: Clould Development Keywords
+  keywords:
+      - docker
+      - k8s
+
+- name: Mobile Developer Keywords
+  keywords:
+      - Xamarin      
