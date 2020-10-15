@@ -8,7 +8,7 @@ title:  极客专栏
 subtitle: 极客专栏
 description: "极客专栏的技术分享博客。内容涵盖Python, PHP, Leetcode面试题，.NET等等~"
 keywords: Python, 大白, VR, 技术控, 大白技术控
-# timezone: Asia/Shanghai +08:00
+timezone: Asia/Shanghai +08:00
 encoding: "utf-8"
 side_bar_repo_limit: 5
 repository: wpfgeek/wpfgeek.github.io
