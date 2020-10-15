@@ -1,7 +1,7 @@
 # *极客专栏* 技术博客
 托管并部署在 Github pages.
 
-原地址: <https:/wpfgeek.github.io>. 
+原地址: <https://wpfgeek.github.io>. 
 
 这是我的个人博客项目，里面会记录技术、运营和生活的点点滴滴。
 
