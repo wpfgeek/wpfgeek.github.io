@@ -32,7 +32,7 @@ layout: default
         <div class="columns">
             <div class="column two-thirds" >
                 <article class="article-content markdown-body">
-                    {{ content }}
+                    {{ content | replace: '<a href="http', '<a rel="nofollow noopener noreferrer" target="_blank" href="http' }}
                 </article>
                 <div class="share">
                     {% include sns-share.html %}
