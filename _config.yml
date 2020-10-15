@@ -11,7 +11,7 @@ keywords: Python, 大白, VR, 技术控, 大白技术控
 # timezone: Asia/Shanghai +08:00
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: by8/by8.github.io
+repository: wpfgeek/wpfgeek.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
