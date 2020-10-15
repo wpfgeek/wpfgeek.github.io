@@ -13,7 +13,7 @@ excerpt: LeetCode面试No.13 - 罗马数字转整数
 上一篇 LeetCode 面试题中，我们分析了一道轻松的字符串面试题 - **回文数**。今天我们来分析一道将数学和字符串结合起来的的面试题。
 
 
-![大白技术控Geekplayers](/images/blog/LeetCode.png)
+![极客专栏geekzl.com](/images/blog/LeetCode.png)
 
 今天要给大家分析的面试题是 LeetCode 上第 **13** 号问题，
 

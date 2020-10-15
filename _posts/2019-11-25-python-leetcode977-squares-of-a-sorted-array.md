@@ -12,7 +12,7 @@ excerpt: LeetCode面试No.977 - 有序数组的平方
 
 上一篇 LeetCode 面试题中，我们分析了一道`集合`相关的数学题。现在我们再来看一个`排序`相关的面试题吧~
 
-![大白技术控Geekplayers](/images/blog/LeetCode.png)
+![极客专栏geekzl.com](/images/blog/LeetCode.png)
 
 今天要给大家分析的面试题是 LeetCode 上第 **977** 号问题，
 

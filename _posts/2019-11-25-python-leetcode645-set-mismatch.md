@@ -12,7 +12,7 @@ excerpt: LeetCode面试No.645 - 错误的集合
 
 上一篇 LeetCode 面试题中，我们分析了一道简单的几何数学题。今天我们来分析一道集合相关的数学题。
 
-![大白技术控Geekplayers](/images/blog/LeetCode.png)
+![极客专栏geekzl.com](/images/blog/LeetCode.png)
 
 今天要给大家分析的面试题是 LeetCode 上第 **645** 号问题，
 

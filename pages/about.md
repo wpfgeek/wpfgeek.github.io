@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
-description: 大白技术控
-keywords: Bravo Yeung, 大白技术控
+description: 极客专栏
+keywords: 极客专栏, Bravo Yeung
 comments: true
 menu: 关于
 permalink: /about/
@@ -21,7 +21,7 @@ permalink: /about/
 {% if site.url contains 'geekplayers.com' %}
 <li>
 微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode-python.jpg" alt="大白技术控" />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode-python.jpg" alt="极客玩家" />
 </li>
 {% endif %}
 </ul>

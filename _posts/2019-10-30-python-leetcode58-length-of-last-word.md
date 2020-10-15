@@ -12,7 +12,7 @@ excerpt: LeetCode面试No.58 - 最后一个单词的长度
 
 上一篇 LeetCode 面试题中，我们分析了一道将数学和字符串结合起来的的面试题，今天我们再来分析了一道轻松的字符串面试题吧~
 
-![大白技术控Geekplayers](/images/blog/LeetCode.png)
+![极客专栏geekzl.com](/images/blog/LeetCode.png)
 
 今天要给大家分析的面试题是 LeetCode 上第 **58** 号问题，
 
