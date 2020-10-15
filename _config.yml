@@ -8,10 +8,10 @@ title:  极客专栏
 subtitle: 极客专栏，致力于分享实用技术，也谈赚钱思维.
 description: "极客专栏技术博客，专注于分享IT前沿技术、干货知识、热点资讯等，同时分享硬核的自媒体赚钱方法、推广技巧和运营实战."
 keywords: 极客专栏, Python, VR, 新媒体, 赚钱
-# timezone: Asia/Shanghai +08:00
+timezone: Asia/Shanghai +08:00
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: by8/by8.github.io
+repository: wpfgeek/wpfgeek.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:

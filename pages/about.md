@@ -21,7 +21,7 @@ permalink: /about/
 {% if site.url contains 'geekplayers.com' %}
 <li>
 微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/gzh_qrcode.jpg" alt="大白技术控" />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ assets_base_url }}/assets/images/qrcode-python.jpg" alt="大白技术控" />
 </li>
 {% endif %}
 </ul>
