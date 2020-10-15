@@ -113,6 +113,14 @@ collections:
         output: true
         permalink: /wiki/:path/
 
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+    values:
+      image: https://pic.rmb.bdstatic.com/bjh/580403fac4c45b5e0d04a27c89bc1194.jpeg
+
 # ---------------- #
 #      Comments    #
 # ---------------- #
