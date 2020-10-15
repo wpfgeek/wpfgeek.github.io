@@ -25,7 +25,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: true
-        start_date: 2020-07-09
+        start_date: 2020-10-15
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -39,7 +39,7 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: 极客玩家大白
+author: 极客社区
 organization: 
 organization_url: 
 github_username: wpfgeek
