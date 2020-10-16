@@ -13,7 +13,7 @@ excerpt: 代码更新后jsdelivr.net不即时刷新的解决方法
 keywords: jsdelivr刷新, jsdelivr不及时刷新, jsdelivr 刷新 api
 description: 代码更新后jsdelivr.net不即时刷新的解决方法，基于"jsdelivr 刷新 api"来做。
 topmost: true
-# original: true
+original: true
 image: https://pic.rmb.bdstatic.com/bjh/ca8b7ea2a00fc93a83375aced73efd27.png
 ---
 
