@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
-description: 极客专栏
-keywords: 极客专栏, Bravo Yeung
+description: 极客中心
+keywords: 极客中心, 极客专栏,Bravo Yeung
 comments: true
 menu: 关于
 permalink: /about/
