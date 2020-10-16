@@ -10,7 +10,7 @@ categories:
   - jsdelivr当cdn
 tags: [jsdelivr, jsdelivr不及时刷新, jsdelivr.net, jsdelivr当cdn]
 excerpt: 代码更新后jsdelivr.net不即时刷新的解决方法
-keywords: jsdelivr不及时刷新, jsdelivr 刷新 api
+keywords: jsdelivr刷新, jsdelivr不及时刷新, jsdelivr 刷新 api
 description: 代码更新后jsdelivr.net不即时刷新的解决方法，基于"jsdelivr 刷新 api"来做。
 topmost: true
 # original: true
