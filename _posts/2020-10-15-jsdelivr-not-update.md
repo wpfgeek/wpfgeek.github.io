@@ -25,7 +25,7 @@ image: https://pic.rmb.bdstatic.com/bjh/ca8b7ea2a00fc93a83375aced73efd27.png
 1、将 cdn.jsdelivr.net中的cdn改为 purge.
 
 2、git bash中执行:
-```
+```bash
 curl https://purge.jsdelivr.net/gh/username/reponame@latest/file.***
 ```
 git commit中涉及到的文件，都需要分别purge一下。
