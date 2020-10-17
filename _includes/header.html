@@ -210,11 +210,11 @@
 					"name": "{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}",
 					"isPartOf": {
                         "@id": "{{ site.url }}",
-                        "name": "{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}"
+                        "name": "{{ site.title }}"
 					},
 					"primaryImageOfPage": {
                         "@id": "{{ site.url }}",
-                        "name": "{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}"
+                        "name": "{{ site.title }}"
 					},
 					"datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
 					"dateModified": "{{ site.time | date_to_xmlschema }}",
@@ -237,7 +237,7 @@
 					},
 					"author": {
                         "@id": "{{ site.url }}",
-                        "name": "{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}"
+                        "name": "{{ site.title }}"
 					},
 					"headline": "{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}",
 					"datePublished": "{% if page.date %}{{ page.date | date_to_xmlschema }}{% else %}{{ site.time | date_to_xmlschema }}{% endif %}",
@@ -245,7 +245,7 @@
 					"commentCount": 30,
 					"publisher": {
                         "@id": "{{ site.url }}",
-                        "name": "{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}"
+                        "name": "{{ site.title }}"
 					},
 					"image": {
 						"@id": "{% if page.image %}{{ page.image }}{% endif %}"
