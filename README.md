@@ -5,8 +5,8 @@
 
 这是我的个人博客项目，里面会记录技术、运营和生活的点点滴滴。
 
-访问地址：[极客中心](https://geeklz.com)
-或 <https://www.geeklz.com>.
+访问地址：[极客中心](https://geekzl.com)
+或 <https://www.geekzl.com>.
 
 ## 极客专栏/极客中心技术博客，专注于分享前沿技术、干货技巧，兼谈赚钱思维.
 
