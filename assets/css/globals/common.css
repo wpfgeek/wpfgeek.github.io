@@ -91,6 +91,11 @@
     color: #333
 }
 
+.site-header h2 a {
+    white-space: nowrap;
+    color: #333 !important;
+}
+
 .site-header h1 a:hover {
     text-decoration: none
 }
