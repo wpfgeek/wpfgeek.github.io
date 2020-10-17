@@ -1,10 +1,39 @@
+<style>
+  .page-nav {
+    font-size: 14px;
+    display: block;
+    width: auto;
+    overflow: hidden;
+  }
+
+  .page-nav a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+  }
+
+  .page-nav .next {
+    text-align: right;
+  }
+</style>
+
 <div style="margin-top:2em;padding:0 1.5em;border:1px solid #d3d3d3;background-color:#deebf7">
-  <h3>文档信息</h3>
+  <h3>版权声明</h3>
   <ul>
     <li>本文作者：<a href="{{ site.url }}" target="_blank">{{ site.author }}</a></li>
     <li>本文链接：<a href="{{ site.url }}{{ page.url }}" target="_blank">{{ site.url }}{{ page.url }}</a></li>
-    <li>版权声明：自由转载-非商用-非衍生-保持署名（<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" target="_blank">创意共享3.0许可证</a>）</li>
+    <li>郑重声明：本文为原创或经授权转载的文章，欢迎转载，但<b>转载时必须在文章页面明显位置注明出处</b>: www.geekzl.com</li>
   </ul>
+</div>
+
+<div class="page-nav">
+  {% if page.previous.url %}
+  <a class="prev" href="{{page.previous.url}}"><i class="fa fa-arrow-left"></i>&nbsp;{{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+  <a class="next" href="{{page.next.url}}"> {{page.next.title}}&nbsp;<i class="fa fa-arrow-right"></i></a>
+  {% endif %}
 </div>
 
 <div>
