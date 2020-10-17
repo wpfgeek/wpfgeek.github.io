@@ -92,9 +92,10 @@ subscribe_rss: /feed.xml
 # ---------------- #
 markdown: kramdown
 highlighter: rouge
-
 paginate: 10
-lsi: false
+
+lsi: true
+
 quiet: false
 excerpt_separator: "\n\n"
 permalink: :title.html

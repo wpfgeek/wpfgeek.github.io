@@ -36,6 +36,21 @@
   {% endif %}
 </div>
 
+<aside class="sidenav">
+  {% include related.html %}           
+
+  <div class="recentposts">
+    <h2>最近更新:</h2>
+    <ul class="article-list">
+    {% for post in site.posts limit:5 %}
+      {% if post.title != page.title %}
+      <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+</aside>
+
 <div>
   <p align="center">
       <img src="//cdn.jsdelivr.net/gh/yanglr/yanglr.github.io/assets/images/dotnet.jpg" title="极客中心" alt="极客中心" width="300" height="300">
