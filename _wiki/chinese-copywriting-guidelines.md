@@ -13,7 +13,7 @@ GitHub repository: [mzlogin/chinese-copywriting-guidelines](https://github.com/m
 
 Other languages:
 
-* [Chinese Traditional](http://sparanoid.com/note/chinese-copywriting-guidelines/)
+* [Chinese Traditional](https://sparanoid.com/note/chinese-copywriting-guidelines/)
 * [English](https://github.com/mzlogin/chinese-copywriting-guidelines/blob/Simplified/README.en.md)
 
 -----
@@ -95,7 +95,7 @@ Other languages:
 
 ### `-ms-text-autospace` to the rescue?
 
-Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/ie/ms531164(v=vs.85).aspx) 的 CSS 属性可以实现自动为中英文之间增加空白。不过目前并未普及，另外在其他应用场景，例如 OS X、iOS 的用户界面目前并不存在这个特性，所以请继续保持随手加空格的习惯。
+Microsoft 有个 [`-ms-text-autospace`](https://msdn.microsoft.com/en-us/library/ie/ms531164(v=vs.85).aspx) 的 CSS 属性可以实现自动为中英文之间增加空白。不过目前并未普及，另外在其他应用场景，例如 OS X、iOS 的用户界面目前并不存在这个特性，所以请继续保持随手加空格的习惯。
 
 ## 标点符号
 
@@ -119,7 +119,7 @@ Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/
 
 ## 全角和半角
 
-不明白什么是全角（全形）与半角（半形）符号？请查看维基百科词条『[全角和半角](http://zh.wikipedia.org/wiki/%E5%85%A8%E5%BD%A2%E5%92%8C%E5%8D%8A%E5%BD%A2)』。
+不明白什么是全角（全形）与半角（半形）符号？请查看维基百科词条『[全角和半角](https://zh.wikipedia.org/wiki/%E5%85%A8%E5%BD%A2%E5%92%8C%E5%8D%8A%E5%BD%A2)』。
 
 ### 使用全角中文标点
 
@@ -256,29 +256,29 @@ Microsoft 有个 [`-ms-text-autospace`](http://msdn.microsoft.com/en-us/library/
 
 | 网站                                              | 文案 | UGC          |
 |---------------------------------------------------|------|--------------|
-| [Apple 中国](http://www.apple.com/cn/)            | Yes  | N/A          |
-| [Apple 香港](http://www.apple.com/hk/)            | Yes  | N/A          |
-| [Apple 台湾](http://www.apple.com/tw/)            | Yes  | N/A          |
-| [Microsoft 中国](http://www.microsoft.com/zh-cn/) | Yes  | N/A          |
-| [Microsoft 香港](http://www.microsoft.com/zh-hk/) | Yes  | N/A          |
-| [Microsoft 台湾](http://www.microsoft.com/zh-tw/) | Yes  | N/A          |
+| [Apple 中国](https://www.apple.com/cn/)            | Yes  | N/A          |
+| [Apple 香港](https://www.apple.com/hk/)            | Yes  | N/A          |
+| [Apple 台湾](https://www.apple.com/tw/)            | Yes  | N/A          |
+| [Microsoft 中国](https://www.microsoft.com/zh-cn/) | Yes  | N/A          |
+| [Microsoft 香港](https://www.microsoft.com/zh-hk/) | Yes  | N/A          |
+| [Microsoft 台湾](https://www.microsoft.com/zh-tw/) | Yes  | N/A          |
 | [LeanCloud](https://leancloud.cn/)                 | Yes  | N/A          |
 | [知乎](https://www.zhihu.com/)                     | Yes  | 部分用户达成 |
 | [V2EX](https://www.v2ex.com/)                      | Yes  | Yes          |
 | [SegmentFault](https://segmentfault.com/)          | Yes  | 部分用户达成 |
-| [Apple4us](http://apple4us.com/)                  | Yes  | N/A          |
+| [Apple4us](https://apple4us.com/)                  | Yes  | N/A          |
 | [豌豆荚](https://www.wandoujia.com/)               | Yes  | N/A          |
 | [Ruby China](https://ruby-china.org/)              | Yes  | 标题达成     |
 | [PHPHub](https://phphub.org/)                      | Yes  | 标题达成     |
 
 ## 参考文献
 
-- [Guidelines for Using Capital Letters](http://grammar.about.com/od/punctuationandmechanics/a/Guidelines-For-Using-Capital-Letters.htm)
-- [Letter case - Wikipedia](http://en.wikipedia.org/wiki/Letter_case)
-- [Punctuation - Oxford Dictionaries](http://www.oxforddictionaries.com/words/punctuation)
+- [Guidelines for Using Capital Letters](https://grammar.about.com/od/punctuationandmechanics/a/Guidelines-For-Using-Capital-Letters.htm)
+- [Letter case - Wikipedia](https://en.wikipedia.org/wiki/Letter_case)
+- [Punctuation - Oxford Dictionaries](https://www.oxforddictionaries.com/words/punctuation)
 - [Punctuation - The Purdue OWL](https://owl.english.purdue.edu/owl/section/1/6/)
-- [How to Use English Punctuation Corrently - wikiHow](http://www.wikihow.com/Use-English-Punctuation-Correctly)
+- [How to Use English Punctuation Corrently - wikiHow](https://www.wikihow.com/Use-English-Punctuation-Correctly)
 - [格式 - openSUSE](https://zh.opensuse.org/index.php?title=Help:%E6%A0%BC%E5%BC%8F)
-- [全角和半角 - 维基百科](http://zh.wikipedia.org/wiki/%E5%85%A8%E5%BD%A2%E5%92%8C%E5%8D%8A%E5%BD%A2)
-- [引号 - 维基百科](http://zh.wikipedia.org/wiki/%E5%BC%95%E8%99%9F)
-- [疑问惊叹号 - 维基百科](http://zh.wikipedia.org/wiki/%E7%96%91%E5%95%8F%E9%A9%9A%E5%98%86%E8%99%9F)
+- [全角和半角 - 维基百科](https://zh.wikipedia.org/wiki/%E5%85%A8%E5%BD%A2%E5%92%8C%E5%8D%8A%E5%BD%A2)
+- [引号 - 维基百科](https://zh.wikipedia.org/wiki/%E5%BC%95%E8%99%9F)
+- [疑问惊叹号 - 维基百科](https://zh.wikipedia.org/wiki/%E7%96%91%E5%95%8F%E9%A9%9A%E5%98%86%E8%99%9F)

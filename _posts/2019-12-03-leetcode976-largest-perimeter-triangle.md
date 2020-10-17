@@ -114,7 +114,7 @@ LeetCode - 976. 三角形的最大周长
         for i in range(len(A)-2):
             if A[i] < A[i+1] + A[i+2]:  # Can build a triangle
                 return A[i] + A[i+1] + A[i+2]
-        return 0       
+        return 0
 ```
 
 
@@ -123,7 +123,7 @@ LeetCode - 976. 三角形的最大周长
 
 执行用时: `256 ms`, 在所有 python3 提交中击败了 ` 91.91 %` 的用户.
 
-![leetcode976-result](http://www.justdopython.com/assets/images/2019/python/leetcode976-result.png)
+![leetcode976-result](https://www.justdopython.com/assets/images/2019/python/leetcode976-result.png)
 
 
 

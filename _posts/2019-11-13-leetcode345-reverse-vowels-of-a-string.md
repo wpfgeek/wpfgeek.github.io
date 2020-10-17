@@ -8,13 +8,14 @@ tagline: by 萌较瘦
 tags: 
   - LeetCode面试题系列
 excerpt: LeetCode面试No.345 - 反转字符串中的元音字母
+image: https://cdn.jsdelivr.net/gh/yanglr/yanglr.github.io/assets/images/public/LeetCode.png
 ---
 
 上一篇 LeetCode 面试题中，我们分析了一道相对轻松的字符串面试题 - **最后一个单词的长度**。今天，我们接着来看另一道字符串的算法题吧。
 
 <!--more-->
 
-![Leetcode](/images/blog/LeetCode.png)
+![Leetcode](//cdn.jsdelivr.net/gh/yanglr/yanglr.github.io/assets/images/public/LeetCode.png)
 
 今天要给大家分析的面试题是 LeetCode 上第 **345** 号问题，
 
@@ -116,4 +117,4 @@ class Solution:
 
 示例代码: <https://github.com/JustDoPython/leetcode-python/tree/master/leetcode-345>
 
-![Leetcode](http://www.justdopython.com/assets/images/2019/python/leetcode345.png)
+![Leetcode](https://cdn.jsdelivr.net/gh/justdopython/justdopython.github.io/assets/images/2019/python/leetcode345.png)
