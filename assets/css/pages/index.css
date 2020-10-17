@@ -19,6 +19,10 @@
     color: #fff
 }
 
+.home .site-header h2 a {
+  color: #fff;
+}
+
 .home .site-header .site-header-nav-item {
     color: rgba(255, 255, 255, .5)
 }
