@@ -52,9 +52,9 @@ comments: false
               {% if paginator.page == 1 %}
               {% if post.topmost == true %}
               <li class="repo-list-item">
-                <h3 class="repo-list-name">
-                  <a style="text-decoration: none !important" href="{{ site.url }}{{ post.url }}"><span class="top-most-flag">[置顶]</span>{{ post.title }}</a>
-                </h3>
+                <h2 class="repo-list-name">
+                  <a style="text-decoration: none !important" href="{{ site.url }}{{ post.url }}"><span class="top-most-flag" style="padding-right: 10px;">[置顶]</span>{{ post.title }}</a>
+                </h2>
                 <p class="repo-list-description">
                 {{ post.excerpt | strip_html | strip }}
                 </p>
@@ -77,9 +77,9 @@ comments: false
               {% for post in paginator.posts %}
               {% if post.topmost != true %}
               <li class="repo-list-item">
-                <h3 class="repo-list-name">
+                <h2 class="repo-list-name">
                   <a style="text-decoration: none !important" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                </h3>
+                </h2>
                 <p class="repo-list-description">
                 {{ post.excerpt | strip_html | strip }}
                 </p>
