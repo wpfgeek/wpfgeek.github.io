@@ -101,7 +101,7 @@
 
     {% assign highlight_base_url = 'https://www.geekzl.com/rouge-themes/dist' %}
     {% if site.cdn.jsdelivr.enabled %}
-    {% assign highlight_base_url = 'https://cdn.jsdelivr.net/gh/mzlogin/rouge-themes@master/dist' %}
+    {% assign highlight_base_url = 'https://cdn.jsdelivr.net/gh/mzlogin/rouge-themes@latest/dist' %}
     {% endif %}
     <link rel="stylesheet" href="{{ highlight_base_url }}/{{ site.highlight_theme}}.css">
     {% if site.components.share.enabled %}

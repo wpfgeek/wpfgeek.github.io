@@ -13,5 +13,5 @@
 欢迎订阅公众号: Python名人堂
 
 <div align="center">
-  <img width="280" height="280" src="https://cdn.jsdelivr.net/gh/wpfgeek/wpfgeek.github.io@master/assets/images/qrcode-python.jpg" alt="Python名人堂-公众号" />
+  <img width="280" height="280" src="https://cdn.jsdelivr.net/gh/wpfgeek/wpfgeek.github.io@latest/assets/images/qrcode-python.jpg" alt="Python名人堂-公众号" />
 </div>
