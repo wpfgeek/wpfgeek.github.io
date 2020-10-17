@@ -81,6 +81,8 @@
     vertical-align: top
 }
 
+
+
 .markdown-body dl dt,.markdown-body table th,.pl-mb,.pl-mdr,.pl-mh,.pl-mh .pl-en,.pl-ms,.pl-sr .pl-cce,.site-header h1 strong {
     font-weight: 700
 }
@@ -114,6 +116,17 @@
 
 .site-header-actions .octicon-mute {
     color: #c00
+}
+
+span.octicon.octicon-gist-secret {
+    margin: 0 5px 0 0;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.site-header a {
+    text-decoration: none;
 }
 
 .site-header-actions .select-menu:after {
