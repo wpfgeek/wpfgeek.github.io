@@ -16,12 +16,15 @@ original: true
 image: https://cdn.jsdelivr.net/gh/yanglr/images/github-down.png
 ---
 
-北京时间2020-10-17 09:15:30左右，本人打开自己的网站<https://geekzl.com>时，发现github down掉了~
+北京时间2020-10-17 09:15:30左右，本人打开自己的网站<https://geekzl.com>时，发现github pages down掉了~
 
 ## down掉的界面如下:
 ![极客中心-github down掉](https://cdn.jsdelivr.net/gh/yanglr/images/github-down.png)
 
 原来是 github 报错了，HTTP错误Code - [503](https://github.com/503.html).
+
+后来直接变成了:
+`GitHub Pages is temporarily down for maintenance.`
 
 ## 为什么显示独角兽图标
 显示独角兽图标的原因是什么呢？据说是表明github是Rails的托管项目(与`mongrel_rails`项目的做法类似)，down掉时会显示独角兽🦄标志.
