@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Jekyll Blog Archive
-        uses: yanglr/jekyll-blog-archive-workflow@1.0.3
+        uses: yanglr/jekyll-blog-archive-workflow@1.0.3.1
         with:
              archive_url: "https://www.geekzl.com/archives/archivedata"
              archive_folder_path: "_archives"
