@@ -5,7 +5,7 @@ baseurl:
 url: https://www.geekzl.com
 # date_format: "ordinal"
 title:  极客中心
-subtitle: 极客中心，致力于分享实用技术，也谈赚钱思维.
+subtitle: 致力于分享实用技术，也谈赚钱思维.
 description: "极客中心技术博客，专注于分享IT前沿技术、干货知识、热点资讯等，同时分享硬核的自媒体赚钱方法、推广技巧和运营实战."
 keywords: 极客中心, 极客专栏, Python, VR, 赚钱
 timezone: Asia/Shanghai +08:00
