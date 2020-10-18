@@ -10,7 +10,6 @@ group :jekyll_plugins do
   gem 'jekyll-include-cache'
   gem 'jekyll-geo-pattern'
   gem 'jekyll-redirect-from'
-  gem 'jekyll-sitemap'
   gem 'rouge'
   gem 'jekyll-sitemap'
   gem 'jekyll-feed'
