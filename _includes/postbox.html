@@ -4,20 +4,21 @@
     }
 </style>
 
-<div class="col-lg-4 col-md-6 mb-30px card-group">
-    <div class="card h-100">
-        <div class="card-body">
-            <!-- <small class="text-muted"><a href="{{ site.baseurl }}/category/{{ post.categories[0] | replace: " ","-" | replace: ".","-" | replace: "#","sharp" | downcase }}.html">{{ post.categories[0] }}</a></small> -->
+<div>
+    <!-- <small class="text-muted"><a href="{{ site.baseurl }}/category/{{ post.categories[0] | replace: " ","-" | replace: ".","-" | replace: "#","sharp" | downcase }}.html">{{ post.categories[0] }}</a></small> -->
 
-            <h2 class="archive__item-title" itemprop="headline">
-                <li style="font-size:15pt !important;">{{ post.date | date: "%Y/%m/%d" }} {% raw %}-{% endraw %}
-                    <a href="{{ post.url | relative_url }}" rel="permalink">
-                        <font style="font-size: 24px;">{{ title }}</font>
-                    </a>
-                </li>
-            </h2>
+    <h2 class="archive__item-title" itemprop="headline">
+        <li style="font-size:15pt !important;">{{ post.date | date: "%Y/%m/%d" }} {% raw %}-{% endraw %}
+            <a href="{{ post.url | relative_url }}" rel="permalink">
+                <font style="font-size: 24px;">{{ post.title }}</font>
+            </a>
+        </li>
+    </h2>
 
-            <h4 class="card-text mt-2">{{ post.excerpt | strip_html | truncatewords:35 }}</h4>
-        </div>
-    </div>
+    {% if post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">
+        {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+    </p>
+    {% endif %}
+
 </div>

@@ -3,22 +3,20 @@ layout: default
 title: 年度归档
 ---
 
-<!-- Begin List Posts
-================================================== -->
-<section class="recent-posts">
-<div class="markdown-body">
-    <h3>Archive of posts from <span>{{ page.type }} '{{ page.title }}'</span></h3>
-</div>
-
-<div class="row listrecent">
-
-{% for post in site.posts %}
-{% assign postyear = post.date | date: "%Y" %}
-{% if postyear == page.year %}
-    {% include postbox.html %}
-{% endif %}    
-
-{% endfor %}
-
-</div>
+<section class="collection-head small geopattern" data-pattern-id="{{ page.title | truncate: 15, ''}}">
+    <div class="container">
+        <div class="collection-title">
+            <h2>{{ page.title }}</h2>
+        </div>
+    </div>
 </section>
+
+<article class="post container">
+    {% for post in site.posts %}
+    {% assign postyear = post.date | date: "%Y" %}
+    {% if postyear == page.year %}
+    {% include postbox.html %}
+    {% endif %}
+
+    {% endfor %}
+</article>
