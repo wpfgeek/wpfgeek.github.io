@@ -13,12 +13,12 @@ jobs:
 - name: Jekyll Blog Archive
         uses: yanglr/jekyll-blog-archive-workflow@v1.0.3
         with:
-          archive_url: "https://yoursite.com/archives/archivedata"
+          archive_url: "https://www.geekzl.com/archives/archivedata"
           archive_folder_path: "_archives"
 - name: setup git config
         run: |
           git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
+          git config user.email "action@github.com"
 - name: commit
         run: |
           git add --all
