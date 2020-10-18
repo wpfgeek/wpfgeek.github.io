@@ -112,11 +112,10 @@ plugins:
 collections:
   archives:
     output: true
-    permalink: /archives/:path/
-
-    wiki:
-        output: true
-        permalink: /wiki/:path/
+    permalink: /archives/:path/ 
+  wiki:
+      output: true
+      permalink: /wiki/:path/
 
 # Defaults
 defaults:
