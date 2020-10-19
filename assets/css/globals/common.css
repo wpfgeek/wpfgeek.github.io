@@ -770,3 +770,20 @@ h3:after {
 }
 
 h3:hover:after { transform: scaleX(1); }
+
+/* Add underline for post title in post pages */ 
+#post-title {
+    color: #666;
+    display: inline-block;
+    margin: 0;
+}
+
+#post-title:after {
+    border-bottom: solid 3.5px #019fb6;
+    content: '';
+    display: block;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+}
+
+#post-title:hover:after { transform: scaleX(1); }
