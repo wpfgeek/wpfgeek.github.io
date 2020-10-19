@@ -101,7 +101,7 @@
             {% for cat in page.categories %}
             <!-- / -->
             <li class="breadcrumb-item " itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
-                <a href="{{ site.url }}/categories/#{{ cat }}" itemprop="item" title="{{ cat }}">
+                <a href="{{ site.url }}/category/{{cat|downcase|replace: ' ', '-'|replace: '+', ''|replace: '.', '-'}}.html" itemprop="item" title="{{ cat }}">
                     <span itemprop="name">{{ cat }}</span>
                 </a>
                 <meta itemprop="position" content="2">
