@@ -135,20 +135,20 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: yanglr
+    username: wpfgeek
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: yanglr
-    repo: geekplayers.com
+    owner: wpfgeek
+    repo: geekzl.com
     oauth:
-        client_id: d6e97a19029a9fb1fbba
-        client_secret: bc6195bc6d2ec5254712fa69960612c2c59f2ebb
+        client_id: 5c65f5ba06d7264fbcf2
+        client_secret: fc67852d30cb77148093c699b75cb156f34c02bc
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: yanglr
-    repo: geekplayers.com
-    clientID: d6e97a19029a9fb1fbba  # owner: by8
-    clientSecret: bc6195bc6d2ec5254712fa69960612c2c59f2ebb
+    owner: wpfgeek
+    repo: geekzl.com
+    clientID: 5c65f5ba06d7264fbcf2  # owner: by8
+    clientSecret: fc67852d30cb77148093c699b75cb156f34c02bc
 
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
