@@ -19,7 +19,7 @@ layout: default
 .collection-title .icon-wechat {
     font-size: 20px;
     line-height: 28px;
-    bottom: 25px;
+    bottom: 22px;
     position: relative;
     color: #7bc549;
     border-color: #7bc549
@@ -114,19 +114,19 @@ layout: default
         <h1 id='post-title' style="font-size: 40px;">
           <a class="hvr-underline-from-center" href="{{ site.baseurl }}{{ page.url }}"
             title="{{ page.title }}_{{ site.title }}" target="_self" rel="canonical">{{ page.title }}</a>
-        </h1>
 
-        <a href="javascript:;" class="iconfont icon-wechat" target="_blank">
-          <div class="wx-qrcode">
-            <h4>扫一扫：分享</h4>
-            <div id="code">
+          <a href="javascript:;" class="iconfont icon-wechat" target="_blank">
+            <div class="wx-qrcode">
+              <h4>扫一扫：分享</h4>
+              <div id="code">
+              </div>
+              <!-- <div class="help">
+                <p>微信里扫一下</p>
+                <p>二维码便可将本文分享至朋友圈。</p>
+              </div> -->
             </div>
-            <!-- <div class="help">
-              <p>微信里扫一下</p>
-              <p>二维码便可将本文分享至朋友圈。</p>
-            </div> -->
-          </div>
-        </a>
+          </a>            
+        </h1>
 
         <div class="collection-info">
           {% if page.date %}
