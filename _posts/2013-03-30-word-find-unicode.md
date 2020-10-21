@@ -9,8 +9,7 @@ categories:
   - unicode
 description: word快速将字符转换为unicode的方法记录
 keywords: word unicode, windows, unicode
-description: Word快速查到字符的unicode
-excerpt: word 转换unicode
+excerpt: word 转换unicode, Word快速查到字符的unicode
 topmost: true
 original: true
 ---
