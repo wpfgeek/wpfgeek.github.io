@@ -2,6 +2,86 @@
 layout: default
 ---
 
+<style>
+.icon-wechat:before {
+    content: "\e603"
+}
+
+.icon-wechat {
+    line-height: 28px;
+    position: relative;
+    color: #7bc549;
+    border-color: #7bc549
+}
+
+.icon-wechat:hover {
+    background: #7bc549
+}
+
+.icon-wechat .wechat-qrcode {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    visibility: hidden;
+    position: absolute;
+    z-index: 9;
+    top: -205px;
+    left: -84px;
+    width: 200px;
+    height: 192px;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 2px 10px #aaa;
+    transition: all 200ms;
+    -webkit-tansition: all 350ms;
+    -moz-transition: all 350ms
+}
+
+.icon-wechat .wechat-qrcode h4 {
+    font-weight: normal;
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    color: #777
+}
+
+.icon-wechat .wechat-qrcode .qrcode {
+    width: 105px;
+    margin: 10px auto
+}
+
+.icon-wechat .wechat-qrcode .help p {
+    font-weight: normal;
+    line-height: 16px;
+    padding: 0;
+    margin: 0
+}
+
+.icon-wechat .wechat-qrcode:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    margin-left: -6px;
+    bottom: -13px;
+    width: 0;
+    height: 0;
+    border-width: 8px 6px 6px 6px;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent
+}
+
+.icon-wechat:hover .wechat-qrcode {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible
+}
+
+</style>
+
 <div class="container">
   <div class="columns">
     <div class="column three-fourths">
@@ -24,6 +104,18 @@ layout: default
           <a class="hvr-underline-from-center" href="{{ site.baseurl }}{{ page.url }}"
             title="{{ page.title }}_{{ site.title }}" target="_self" rel="canonical">{{ page.title }}</a>
         </h1>
+
+        <a href="javascript:;" class="iconfont icon-wechat" target="_blank">
+          <div class="wechat-qrcode">
+            <h4>微信扫一扫：分享</h4>
+            <div id="code">
+            </div>
+            <div class="help">
+              <p>微信里扫一下</p>
+              <p>二维码便可将本文分享至朋友圈。</p>
+            </div>
+          </div>
+        </a>
 
         <div class="collection-info">
           {% if page.date %}
