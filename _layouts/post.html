@@ -3,31 +3,42 @@ layout: default
 ---
 
 <style>
+.iconfont {
+    /* font-family: "iconfont" !important; */
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale
+}
+  
 .icon-wechat:before {
     content: "\e603"
 }
 
-.icon-wechat {
+.collection-title .icon-wechat {
+    font-size: 20px;
     line-height: 28px;
+    bottom: 25px;
     position: relative;
     color: #7bc549;
     border-color: #7bc549
 }
 
-.icon-wechat:hover {
-    background: #7bc549
+.collection-title .icon-wechat:hover {
+    background: #009999
 }
 
-.icon-wechat .wechat-qrcode {
+.icon-wechat .wx-qrcode {
     opacity: 0;
     filter: alpha(opacity=0);
     visibility: hidden;
     position: absolute;
     z-index: 9;
-    top: -205px;
-    left: -84px;
-    width: 200px;
-    height: 192px;
+    top: -144px;
+    left: -50px;
+    width: 120px;
+    height: 135px;
     color: #666;
     font-size: 12px;
     text-align: center;
@@ -35,10 +46,10 @@ layout: default
     box-shadow: 0 2px 10px #aaa;
     transition: all 200ms;
     -webkit-tansition: all 350ms;
-    -moz-transition: all 350ms
+    -moz-transition: all 350ms;
 }
 
-.icon-wechat .wechat-qrcode h4 {
+.icon-wechat .wx-qrcode h4 {
     font-weight: normal;
     height: 26px;
     line-height: 26px;
@@ -49,19 +60,19 @@ layout: default
     color: #777
 }
 
-.icon-wechat .wechat-qrcode .qrcode {
+.icon-wechat .wx-qrcode .qrcode {
     width: 105px;
     margin: 10px auto
 }
 
-.icon-wechat .wechat-qrcode .help p {
+.icon-wechat .wx-qrcode .help p {
     font-weight: normal;
     line-height: 16px;
     padding: 0;
     margin: 0
 }
 
-.icon-wechat .wechat-qrcode:after {
+.icon-wechat .wx-qrcode:after {
     content: '';
     position: absolute;
     left: 50%;
@@ -74,7 +85,7 @@ layout: default
     border-color: #fff transparent transparent transparent
 }
 
-.icon-wechat:hover .wechat-qrcode {
+.icon-wechat:hover .wx-qrcode {
     opacity: 1;
     filter: alpha(opacity=100);
     visibility: visible
@@ -106,14 +117,14 @@ layout: default
         </h1>
 
         <a href="javascript:;" class="iconfont icon-wechat" target="_blank">
-          <div class="wechat-qrcode">
-            <h4>微信扫一扫：分享</h4>
+          <div class="wx-qrcode">
+            <h4>扫一扫：分享</h4>
             <div id="code">
             </div>
-            <div class="help">
+            <!-- <div class="help">
               <p>微信里扫一下</p>
               <p>二维码便可将本文分享至朋友圈。</p>
-            </div>
+            </div> -->
           </div>
         </a>
 
