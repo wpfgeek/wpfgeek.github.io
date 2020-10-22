@@ -22,8 +22,9 @@
     <meta name="shenma-site-verification" content="3f4e8bd06ccdb06c1f1c3815ba1777db_1603084850"> <!-- Submit to sm. -->
     <meta name="yandex-verification" content="687c7a6a07efa47d" /> <!-- Submit to yand. -->
     <meta name="bytedance-verification-code" content="mzsnkx5uio1YXicg5bFK" /> <!-- Submit to byd-t. -->
+    <meta name="msvalidate.01" content="0FE0D36F099AFBB1CAC652EF20A2437F" /> <!-- Submit to b. -->
 
-    <title>{% if page.title %}{{ page.title }}_{% endif %}{{ site.title }}{% raw %} | {% endraw %}{{ site.alias }}</title>
+    <title>{% if page.title %}{{ page.title }}_{% endif %}{{ site.title }}</title>
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/vendor/primer-css/css/primer.css">
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/css/components/collection.css">
     <link rel="stylesheet" href="{{ assets_base_url }}/assets/css/components/repo-card.css">
@@ -129,6 +130,16 @@
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.subscribe_rss }}">
     <link rel="sitemap" type="application/xml" title="{{ site.title }} Sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
     
+    <!-- For g -->
+    <meta name="author" content="{% if site.data.authors[page.author] %}{{ page.author }}{% else %}极客中心{% endif %}"/>
+
+    <!-- Schema.org markup for g+ -->
+    <link rel="author" href="{{ site.url }}{{ page.url }}">
+    <link rel="publisher" href="{{ site.url }}">
+    <meta itemprop="name" content="{{ site.title }}">
+    <meta itemprop="image" content="{{ page.image }}">
+    <meta itemprop="description" content="{% if page.excerpt %}{{ page.excerpt | escape }}{% else %}{{ site.description }}{% endif %}">
+
     <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}"/>
     {% if page.title %}
       {% if page.keywords %}
@@ -323,6 +334,7 @@
     <script src="{{ assets_base_url }}/assets/vendor/jquery/dist/jquery.min.js"></script>
     <script src="{{ assets_base_url }}/assets/js/jquery-ui.js"></script>
     <script src="{{ assets_base_url }}/assets/js/main.js"></script>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/gh/wpfgeek/wpfgeek.github.io/assets/vendor/share.js/dist/js/jquery.qrcode.min.js'></script> <!-- 引入qrcode.js库 -->
     
     <!-- baidu analyisis -->
     <script>

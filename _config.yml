@@ -94,7 +94,7 @@ markdown: kramdown
 highlighter: rouge
 paginate: 10
 
-lsi: true
+# lsi: true
 
 quiet: false
 excerpt_separator: "\n\n"
