@@ -773,7 +773,6 @@ h3:hover:after { transform: scaleX(1); }
 
 /* Add underline for post title in post pages */ 
 #post-title {
-    color: #666;
     display: inline-block;
     margin: 0;
 }
