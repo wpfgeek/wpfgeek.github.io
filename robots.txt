@@ -1,0 +1,4 @@
+Sitemap: https://www.geekzl.com/sitemap.xml
+Sitemap: https://www.geekzl.com/cnsitemap.xml
+
+User-agent: *
