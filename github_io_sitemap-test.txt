@@ -1,0 +1,9 @@
+---
+layout: null
+---
+{% for post in site.posts %}
+{{ site.baseurl }}{{ post.url }}
+{% endfor %}
+{% for page in site.pages %}
+{{ site.baseurl }}{{ page.url | remove: "index.html" }}
+{% endfor %}
