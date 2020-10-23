@@ -2,8 +2,8 @@
 layout: null
 ---
 {% for post in site.posts %}
-{{ site.url | replace: "www.geekzl.com", "yanglr.github.io" }}{{ post.url }}
+{{ site.url | replace: "www.geekzl.com", "wpfgeek.github.io" }}{{ post.url }}
 {% endfor %}
 {% for page in site.pages %}
-{{ site.url | replace: "www.geekzl.com", "yanglr.github.io" }}{{ page.url | remove: "index.html" }}
+{{ site.url | replace: "www.geekzl.com", "wpfgeek.github.io" }}{{ page.url | remove: "index.html" }}
 {% endfor %}
