@@ -5,5 +5,7 @@ layout: null
 {{ site.url | replace: "www.geekzl.com", "wpfgeek.github.io" }}{{ post.url }}
 {% endfor %}
 {% for page in site.pages %}
+{% unless page.url.startswith('/20') == false %}
 {{ site.url | replace: "www.geekzl.com", "wpfgeek.github.io" }}{{ page.url | remove: "index.html" }}
+{% endunless %}
 {% endfor %}
