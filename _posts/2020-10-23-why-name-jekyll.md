@@ -84,3 +84,6 @@ Jekyll一开始的宣传语(slogan)是: `Jekyll: transform your text into a mons
 右边一半白一半红的试管也与Jekyll and Hyde中的好人博士/恶魔 分别对应。
 
 由此可见，Jekyll应该是取名于此。
+
+<hr>
+我的博客即将同步至腾讯云+社区，邀请大家一同入驻：<https://cloud.tencent.com/developer/support-plan?invite_code=3nn7pn0aix440>
