@@ -22,7 +22,9 @@ Jekyll是一个简单的静态网站生成器，github pages默认就会用这�
 
 Jekyll由Tom Preston-Werner于2008年首次发布，后来被派克·摩尔(Parker Moore)接管。
 
-事实上，Jekyll取名很可能来自于 `Jekyll and Hyde` 这个词，接下来我们从4个方面给出证据。
+事实上，Jekyll取名很可能来自于 `Jekyll and Hyde` (变身博士) 这个词，《变身博士》是 `罗伯特·路易斯·史蒂文森` 的名作，因书中人物杰奇和海德善恶截然不同的性格让人印象深刻，后来"Jekyll and Hyde"一词成为 心理学「双重人格」的代名词。
+
+接下来我们从4个方面给出Jekyll与小说`Jekyll and Hyde`之间关联的证据。
 
 ## 证据1：流行英语词典中的Jekyll
 
