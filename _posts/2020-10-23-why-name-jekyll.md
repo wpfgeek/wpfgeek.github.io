@@ -73,6 +73,8 @@ Jekyll一开始的宣传语(slogan)是: `Jekyll: transform your text into a mons
 而 `Jekyll & Hyde` 的宣传海报为:
 ![极客中心-Jekyll & Hyde-宣传海报](https://cdn.jsdelivr.net/gh/yanglr/images/jekyll-and-hyde-poster.jpg "极客中心")
 
+两者很像啊，有木有~
+
 ## 证据4：Jekyll的logo
 
 ![极客中心-Jekyll logo](https://cdn.jsdelivr.net/gh/yanglr/images/jekyll-logo.png "极客中心")
