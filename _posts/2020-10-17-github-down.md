@@ -26,6 +26,8 @@ image: https://cdn.jsdelivr.net/gh/yanglr/images/github-down.png
 后来直接变成了:
 `GitHub Pages is temporarily down for maintenance.`
 
+![极客中心-github down掉2](https://cdn.jsdelivr.net/gh/yanglr/images/github-pages-down2.png)
+
 ## 为什么显示独角兽图标
 显示独角兽图标的原因是什么呢？据说是表明github是Rails的托管项目(与`mongrel_rails`项目的做法类似)，down掉时会显示独角兽🦄标志.
 
