@@ -17,6 +17,7 @@ permalink: /open-source/
     <div class="repo-list">
         <!-- Check here for github metadata -->
         <!-- https://help.github.com/articles/repository-metadata-on-github-pages/ -->
+
         {% for repo in sorted_repos %}
         <a href="{{ repo.html_url }}" target="_blank" class="one-third-column card text-center">
             <div class="thumbnail">
@@ -40,7 +41,7 @@ permalink: /open-source/
                         </span>
                         <span class="meta-info" title="Last updated：{{ repo.updated_at }}">
                             <span class="octicon octicon-clock"></span>
-                            <time datetime="{{ repo.updated_at }}">{{ repo.updated_at | date: '%Y-%m-%d' }}</time>
+                            <time datetime="{{ repo.updated_at }}">{{ repo.updated_at | date: '%Y-%m-%d %T' }}</time>
                         </span>
                     </div>
                 </div>
