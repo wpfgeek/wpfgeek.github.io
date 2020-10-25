@@ -81,6 +81,10 @@ Jekyll以前官网的宣传语(slogan)是: `Jekyll: transform your text into a m
 
 两者很像啊，有木有~
 
+这里给个福利，有兴趣看《变身怪医》音乐剧的小伙伴可以到b站观看，传送门:
+[《变身怪医》2020全国巡演发布会超清完整版-郑云龙|阿云嘎|刘令飞_哔哩哔哩 (゜-゜)つロ 干杯~-bilibili](https://www.bilibili.com/video/av83251074/).
+
+
 ## 证据4：Jekyll的logo
 
 咱们先看看`Jekyll and Hyde`音乐剧的门票:
