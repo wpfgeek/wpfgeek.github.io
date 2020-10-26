@@ -60,6 +60,13 @@ comments: false
                 <p class="repo-list-description">
                 {{ post.excerpt | strip_html | strip }}
                 </p>
+
+                <div class="post-readmore"><a class="post-readmore_link" href="{{ site.url }}{{ post.url }}">
+                    <span class="post-readmore_text">阅读全文</span>
+                    <span class="post-readmore_icon"><i class="fa fa-long-arrow-alt-right"></i></span>
+                  </a>
+                </div>
+
                 <p class="repo-list-meta">
                 <span class="meta-info">
                   <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d %T" }}
@@ -85,6 +92,13 @@ comments: false
                 <p class="repo-list-description">
                 {{ post.excerpt | strip_html | strip }}
                 </p>
+
+                <div class="post-readmore"><a class="post-readmore_link" href="{{ site.url }}{{ post.url }}">
+                  <span class="post-readmore_text">阅读全文</span>
+                  <span class="post-readmore_icon"><i class="fa fa-long-arrow-alt-right"></i></span>
+                </a>
+              </div>
+
                 <p class="repo-list-meta">
                 <span class="meta-info">
                   <span class="octicon octicon-calendar"></span> {{ post.date | date: "%Y/%m/%d %T" }}

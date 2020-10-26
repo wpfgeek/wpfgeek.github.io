@@ -45,3 +45,37 @@
 .highlight pre code * {
   white-space: pre !important;
   }
+
+/* Style for read more */
+.post-readmore {
+    margin-top: 1.5rem;
+    text-align: center;    
+}
+
+.post-readmore_link {
+    display: inline-block;
+    border-radius: 5px;
+    padding: 6px 0.6em;
+    color: #fff;
+    background-color: #73c8ff;
+    -webkit-transition: background-color 0.2s ease;
+    -moz-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    -ms-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    text-decoration: none;    
+}
+
+.post-readmore_icon {
+    margin-left: 0.3rem;
+}
+
+.post-readmore_link:hover {
+    color: var(--color-gray-200);
+    background-color: #49b1f5;
+}
+
+.fa-long-arrow-alt-right:before {
+    content: "\f30b";
+}
