@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://www.geekzl.com
+url: https://web.geekzl.com
 # date_format: "ordinal"
 title:  极客中心
 subtitle: 致力于分享实用技术，也谈赚钱思维.
